@@ -91,7 +91,7 @@ compiler gcc:
     asmStmtFrmt: "__asm__($1);$n",
     structStmtFmt: "$1 $3 $2 ", # struct|union [packed] $name
     produceAsm: gnuAsmListing,
-    cppXsupport: "-std=gnu++17 -funsigned-char",
+    cppXsupport: "",
     props: {hasSwitchRange, hasComputedGoto, hasCpp, hasGcGuard, hasGnuAsm,
             hasAttribute})
 
